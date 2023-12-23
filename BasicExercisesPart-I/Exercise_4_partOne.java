@@ -3,7 +3,7 @@ public class Exercise_4_partOne {
 
     public static void main(String[] args) {
         // Create a Scanner object to read input from the user
-        Scanner in =  new Scanner(System.in);
+        Scanner in = new Scanner(System.in);
 
         // prompt the user to input the first number
         System.out.print("Input first number: ");
@@ -16,6 +16,6 @@ public class Exercise_4_partOne {
         int num2 = in.nextInt();
 
         // Calculate the product of the two numbers and display the result
-        System.out.println(num1 + " x " + num2 + " = " + num1 * num2 );
+        System.out.println(num1 + " x " + num2 + " = " + num1 * num2);
     }
 }
