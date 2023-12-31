@@ -21,7 +21,7 @@ public class addTwoBinaryNumbers {
         binary2 = in.nextLong();
 
         // Perform binary  addition while there are digits in the binary numbers
-        while (binary1 != 0 || binary2 != )
+        while (binary1 != 0 || binary2 != 0 )
         {
             // Calculate the sum of binary digits and update the remainder
             sum[i++] = (int)((binary1 % 10 + binary2 % 10 + remainder) % 2);
@@ -32,9 +32,18 @@ public class addTwoBinaryNumbers {
 
         // If there is a remaining carry, add it to the sum
         if (remainder != 0){
-            sum[1++] = remainder;
+            sum[i++] = remainder;
         }
 
-        // Decrement the index to prepare for
+        // Decrement the index to prepare for printing
+        --i;
+
+        // Display the sum of the two binary numbers
+        System.out.print(" Sum of two binary numbers: ");
+        while (i >= 0){
+            System.out.print(sum[i--]);
+        }
+
+        System.out.print("\n");
     }
 }
