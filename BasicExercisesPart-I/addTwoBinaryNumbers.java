@@ -32,7 +32,7 @@ public class addTwoBinaryNumbers {
 
         // If there is a remaining carry, add it to the sum
         if (remainder != 0){
-            sum[i++] = remainder;
+
         }
 
         // Decrement the index to prepare for printing
